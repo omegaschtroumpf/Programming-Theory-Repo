@@ -110,6 +110,8 @@ GameObject:
   - component: {fileID: 670482943977767335}
   - component: {fileID: 670482943977767334}
   - component: {fileID: 670482943977767329}
+  - component: {fileID: 5417816952158523451}
+  - component: {fileID: -8933994344874867094}
   m_Layer: 0
   m_Name: Alcohol
   m_TagString: Untagged
@@ -197,3 +199,36 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5417816952158523451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670482943977767328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2be45185ca079a468d0f2d293e8c38e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HeatToIgnite: 1
+  HasIgnited: 0
+  explosionParticle: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
+  ExplosiveForce: 60
+  ExplosiveRadius: 5
+--- !u!54 &-8933994344874867094
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670482943977767328}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
