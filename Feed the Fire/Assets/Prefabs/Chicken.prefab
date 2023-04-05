@@ -111,10 +111,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1f13a63cad0d544b9f1cb263c8a0982, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeatToIgnite: 20
+  HeatToIgnite: 10
   HasIgnited: 0
   flameParticle: {fileID: 2603495372200890906}
-  m_TimeToBurn: 10
+  m_TimeToBurn: 5
   heatColor: {r: 0.7924528, g: 0.3959839, b: 0, a: 1}
   burnColor: {r: 0.2830189, g: 0.14826271, b: 0.059807748, a: 0}
 --- !u!1001 &2603495372215438810

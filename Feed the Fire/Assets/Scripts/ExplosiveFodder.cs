@@ -13,6 +13,7 @@ public class ExplosiveFodder : FireFodder
 
     private void Update()
     {
+        // for demo
         Heat(.5f * Time.deltaTime);
     }
 

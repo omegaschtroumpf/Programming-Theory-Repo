@@ -29,6 +29,7 @@ public class BurnFodder : FireFodder
     }
     public void Update()
     {
+        // for demo
         Heat(.5f * Time.deltaTime);
     }
 
